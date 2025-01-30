@@ -25,7 +25,7 @@ end
 ---@param lang string
 ---@return boolean
 local function is_stylesheet(lang)
-  return lang == "css" or lang == "scss"
+  return lang == "css" or lang == "scss" or lang == "less"
 end
 
 --- Get the language set to the buffer
